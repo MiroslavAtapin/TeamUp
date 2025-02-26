@@ -5,4 +5,5 @@
     <color name="accent">#0760FB</color>
     <color name="secondary_text">#757575</color>
     <color name="ed_border">#EDF1F3</color>
+    <color name="eror">#FF6060</color>
 </resources>

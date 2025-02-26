@@ -1,6 +1,11 @@
 package com.example.teamup;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +25,18 @@ public class LoginActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        EditText edEmail = findViewById(R.id.edEmail);
+        EditText edPassword = findViewById(R.id.edPassword);
+        Button btnGoToProfile = findViewById(R.id.btnGoToProfile);
+        TextView tvGoToRegister = findViewById(R.id.tvGoToRegister);
+
+        tvGoToRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+            }
+        });
+
     }
 }

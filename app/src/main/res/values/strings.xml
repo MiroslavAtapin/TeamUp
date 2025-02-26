@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TeamUp</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">3F8xHbXBPLm9eytrnqHMVpQzTogOEStWnXVVJI29</string>
+    <string name="back4app_client_key">bVrBY7hbIK1fTa2Radzt8ci4q0C8mtPW6CO1xpDJ</string>
 </resources>
